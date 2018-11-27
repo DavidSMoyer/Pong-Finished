@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Paddle
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Paddle\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=isLeft
+comment1.target=Paddle(boolean)
+comment1.text=\r\n\ The\ constructor\ of\ the\ class.\ Sets\ what\ color\ the\ paddle\ is\ and\ the\ keys\ to\ move\ up\ and\ down,\ as\ well\ as\ creating\ the\ image.\r\n\ \r\n\ \r\n\ @param\ isLeft\ Sets\ the\ side\ the\ paddle\ is\ on,\ and\ the\ player.\r\n\ @return\ Returns\ nothing.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Paddle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ checkKeyPress()
+comment3.text=\r\n\ Checks\ to\ see\ if\ the\ up\ or\ down\ keys\ are\ pressed,\ and\ moves\ accordingly.\r\n\ \r\n\ @param\ None\ There\ are\ no\ parameters.\r\n\ \r\n
+numComments=4

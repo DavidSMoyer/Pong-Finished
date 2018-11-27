@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Score
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Score\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=onLeft
+comment1.target=Score(boolean)
+comment1.text=\r\n\ The\ constructor\ of\ the\ class.\ Sets\ the\ score\ to\ 0,\ and\ the\ side/player.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Score\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ displayScore()
+comment3.text=\r\n\ Sets\ the\ image\ to\ the\ current\ score,\ and\ the\ player's\ color.\ Also\ says\ that\ the\ score\ has\ been\ changed.\r\n\ \r\n\ @param\ None\ There\ are\ no\ parameters.\r\n\ @return\ Returns\ nothing.\r\n
+comment4.params=
+comment4.target=void\ countScore()
+comment4.text=\r\n\ Increases\ the\ score\ by\ one,\ and\ says\ the\ score\ needs\ to\ be\ updated.\r\n\ \r\n\ @param\ None\ There\ are\ no\ parameters.\r\n\ @return\ Returns\ Nothing.\r\n
+comment5.params=
+comment5.target=int\ getScore()
+comment5.text=\r\n\ Returns\ the\ current\ score.\r\n\ \r\n\ @param\ None\ There\ are\ no\ parameters.\r\n\ \r\n
+numComments=6
