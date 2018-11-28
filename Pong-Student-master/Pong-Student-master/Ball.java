@@ -39,18 +39,18 @@ public class Ball extends Actor
      */
     public Ball()
     {
+        int turn;
         GreenfootImage ballImage = new GreenfootImage(SIZE,SIZE);
         ballImage.setColor(Color.WHITE);
         ballImage.fillOval(0,0,SIZE,SIZE);
         setImage(ballImage);
-        if (Greenfoot.getRandomNumber(2) == 1)
+        
+        do
         {
-            turn(Greenfoot.getRandomNumber(86)-43);
-        }
-        else
-        {
-            turn(Greenfoot.getRandomNumber(86)-43+180);
-        }
+            turn = Greenfoot.getRandomNumber(360);
+        } while( (turn >= 0 && turn <= 10) || (turn >= 350 && turn <= 359) || (turn >= 80 && turn <= 100) || (turn >= 170 && turn <= 190) || (turn >= 260 && turn <= 280) );
+        
+        setRotation(turn);
     }
 
     /**
